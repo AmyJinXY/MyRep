@@ -14,6 +14,6 @@ node 'base'{
         sh 'echo "build failed..."'
         }
       throw e
-      }
+      
 
 }
