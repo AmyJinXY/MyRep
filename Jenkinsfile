@@ -17,7 +17,7 @@ node {
   } catch (e) {
         sh 'echo "build failed..."'
         }
-      throw e
+      // throw e
       
 
 }
