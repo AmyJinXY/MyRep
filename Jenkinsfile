@@ -11,7 +11,7 @@ node 'base'{
 	stage 'Archive to artifactory'
 		sh 'echo "upload to artifactory"'
   } catch (e) {
-        sh 'echo "build failed"
+        sh 'echo "build failed..."'
         }
       throw e
       }
