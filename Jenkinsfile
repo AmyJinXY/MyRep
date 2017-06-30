@@ -3,7 +3,7 @@
 // import au.com.tabcorp.potatocannon.*
 // import groovy.json.JsonOutput
 
-node {
+node('windowsbase') {
   
   try {
 	stage 'Checkout'
